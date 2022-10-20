@@ -1,0 +1,171 @@
+/* font-family: 'Cedarville Cursive', */
+/* cursive; */
+/* font-family: 'Titillium Web', */
+/* sans-serif; */
+/* green:  */
+
+
+:root {
+    --prim: #ff2c2c;
+    --sec:  #f6e8b1;
+    --tert: #d1001f;
+}
+body {
+    font-family:'Titillium Web' sans-serif; 
+}
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke:var(--sec) ;
+    fill: var(--sec) ;
+}
+.icon-heart, .icon-cutlery, .icon-coffee {
+    width : 2em;
+    height: 2em;
+    stroke: green;
+    fill: green;
+    position: relative;
+    right: 10px;
+
+}
+.search-box button {
+    border: solid 1px black;
+    background-color: inherit;
+    width: 12em;
+}
+.search-box .icon {
+    stroke: black;
+    fill: black;
+    position: relative;
+    left: 5em;
+}
+.logo {
+    font-family: 'Cedarville Cursive';
+}
+.about-section {
+    background:#fffdd1;
+    padding: 20px ;
+}
+.inner {
+    background: white;
+    padding: 20px;
+}
+.titillium {
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+}
+.my-btn {
+    border-radius: 8px;
+    color: var(--sec);
+}
+.my-btn:hover {
+    color: black;
+    background-color: var(--sec);
+
+}
+.top-header {
+    background-color:var(--prim);
+    border-bottom: solid 20px var(--tert);
+}
+ .mid-header {
+    background-color: var(--tert);
+}
+.bottom-header {
+    background-color: var(--sec);
+    padding-top: 20px;
+}
+.hero-section {
+    background-image:url('../media/salad.jpeg') ;
+    background-size: cover;
+    position: relative;
+}
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7 );
+}
+.carousel-header-top{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffff;
+}
+.carousel-header-bottom{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+    position: relative;
+}
+.carousel-box {
+    height:775px;
+    padding-top: 100px;
+    text-align: center;
+}
+.inside-div {
+    padding: 20px;
+    text-align: left;
+    width: 350px;
+    background-color:rgba(221, 221, 92, .5);
+}
+.inside-header {
+    color:black ;
+}
+.product-section {
+    background: #fffdd1; 
+    padding: 20px;
+}
+.figure-img {
+    width: 250px;
+    height: 150px;
+}
+.textover{
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(134, 134, 134, .3 );
+
+}
+.textover figcaption {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    background: white;
+}
+.cap-text {
+    margin: 0;
+}
+.reservation-section {
+    background-color: #fffef2;
+    padding: 20px;
+}
+.reservation-header {
+    padding: 20px;
+    font-size: 30px;
+}
+.offer {
+    margin:0;
+    position: relative;
+    right: 30px;
+}
+.logo-section {
+    background-color: #777777;
+    border-bottom: #555555 ;
+    padding: 20px;
+}
+.top-footer {
+    background-color: #555555;
+    border-bottom: #333333;
+    padding: 20px;
+}
+.bottom-footer {
+    padding: 20px;
+    background-color: #333333;
+}
